@@ -10,7 +10,7 @@ export default function Intro() {
       <div className = "imgs">
         <img className="center-fit" src = {team}/>
         <div className="centered">FITFREAK</div>
-        <div className="centered">MOVE. IMPROVE. REPEAT.</div>
+        <div className="centered-bottom">MOVE. IMPROVE. REPEAT.</div>
         <img className="center-fit" src = {background}/>
       </div>
         <p>
