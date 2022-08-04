@@ -19,11 +19,34 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+    font-size: 400%;
 }
 
 .centered-bottom {
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
+    font-size: 400%;
+}
+
+.centered2 {
+    position: absolute;
+    top: 185%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 400%;
+    text-align: center;
+}
+
+.centered-bottom2 {
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 400%;
+    color: white;
 }

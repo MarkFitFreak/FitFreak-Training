@@ -12,17 +12,17 @@ export default function Intro() {
         <div className="centered">FITFREAK</div>
         <div className="centered-bottom">MOVE. IMPROVE. REPEAT.</div>
         <img className="center-fit" src = {background}/>
-        <div className="centered">Address: 1 Corwen St, Claremont, Cape Town, 7708, South Africa</div>
-        <div className="centered-bottom">Hours: 6:00 AM - 7:00 PM</div>
+        <div className="centered2">Address: 1 Corwen St, Claremont, Cape Town, 7708, South Africa</div>
+        <div className="centered-bottom2">Hours: 6:00 AM - 7:00 PM</div>
       </div>
         <p>
         FITFREAK (use logo)
 
 MOVE. IMPROVE. REPEAT.
 
-At FitFreak we train smart. 
+At FitFreak we train smart.
 
-We are the more than just a place to break sweat – we’re an incubator for achieving the best version of yourself. 
+We are more than just a place to break sweat – we’re an incubator for achieving the best version of yourself. 
 
 This is the basis of the FitFreak philosophy. 
 
