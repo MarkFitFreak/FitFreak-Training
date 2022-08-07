@@ -2,11 +2,11 @@ import React from 'react';
 import './TrainerPage.css'; 
 import mark from './img/mark.jpeg';
 import chad from './img/chad.jpeg';
-import linda from './img/linda.jpeg';
-import jay from './img/jay.jpeg';
-import zak from './img/zak.jpeg';
-import ken from './img/ken.jpeg';
-import jeff from './img/jeff.jpeg';
+import andile from './img/andile.jpeg';
+import stephen from './img/stephen.jpeg';
+import jarrod from './img/jarrod.jpeg';
+import miguel from './img/miguel.jpeg';
+import dorian from './img/dorian.jpeg';
 
 //missing jeff
 
@@ -18,34 +18,34 @@ export default function TrainerPage() {
                 <div className='row'>
                 <div className='col-sm-4 wrap'>
                     <img class="card-img-top" src={mark} alt="Card image cap"/>
-                    <div className='text display-6 text-center'>Mark<br></br><br></br>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</div>
+                    <div className='text display-6 text-center'>Mark<br></br><br></br>"Your path is more difficult because your calling is higher"</div>
                 </div>
                 <div className='col-sm-4 wrap'>
                     <img class="card-img-top" src={chad} alt="Card image cap"/>
-                    <div className='text display-6 text-center'>Chad<br></br><br></br>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</div>
+                    <div className='text display-6 text-center'>Chad<br></br><br></br>"One foot forward, one day at a time"</div>
                 </div>
                 <div className='col-sm-4 wrap'>
-                    <img class="card-img-top" src={jay} alt="Card image cap"/>
-                    <div className='text display-6 text-center'>Jay<br></br><br></br>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</div>
+                    <img class="card-img-top" src={dorian} alt="Card image cap"/>
+                    <div className='text display-6 text-center'>Dorian<br></br><br></br>"The greatest wealth is health, we take it for granted and only realize how important it is when we lose it"</div>
                 </div>
                 </div>
 
                 <div className='row mt-3'>
                     <div className='col-sm-3 wrap'>
-                    <img class="card-img-top" src={zak} alt="Card image cap"/>
-                <div className='text display-6 text-center'>Zak<br></br><br></br>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</div>
+                    <img class="card-img-top" src={jarrod} alt="Card image cap"/>
+                <div className='text display-6 text-center'>Jarrod<br></br><br></br>"Success is not final, failure is not fatal, it is the courage to continue that counts"</div>
                     </div>
                 <div className='col-sm-3 wrap'>
-                    <img class="card-img-top" src={ken} alt="Card image cap"/>
-                    <div className='text display-6 text-center'>Ken<br></br><br></br>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</div>
+                    <img class="card-img-top" src={miguel} alt="Card image cap"/>
+                    <div className='text display-6 text-center'>Miguel<br></br><br></br>"Do today what others won’t, so tomorrow you can do what others can’t"</div>
                 </div>
                 <div className='col-sm-3 wrap'>
-                    <img class="card-img-top" src={linda} alt="Card image cap"/>
-                    <div className='text display-6 text-center'>Linda<br></br><br></br>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</div>
+                    <img class="card-img-top" src={andile} alt="Card image cap"/>
+                    <div className='text display-6 text-center'>Andile<br></br><br></br>"You have to put the work in for it to work out"</div>
                 </div>
                 <div className='col-sm-3 wrap'>
-                    <img class="card-img-top" src={jeff} alt="Card image cap"/>
-                    <div className='text display-6 text-center'>Jeff<br></br><br></br>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</div>
+                    <img class="card-img-top" src={stephen} alt="Card image cap"/>
+                    <div className='text display-6 text-center'>Stephen<br></br><br></br>"Do what you hate to do but do it like you love it"</div>
                 </div>
                 </div>
             </div>
