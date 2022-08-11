@@ -6,42 +6,14 @@ import './Intro.css';
 
 export default function Intro() {
   return (
-    <div>
-      <div className = "container center-fit">
+    <div className = "dark">
+      <div className = "center-fit imgs">
         <img className="center-fit" src = {team}/>
         <div className = "centered">
-          <div className = "text-center imgs">
-            <b className = "fontUp dark">FITFREAK</b>
+          <div className = "text-center">
+            <b className = "fontUp">FITFREAK</b>
             <br></br>
-            <b className = "fontUp1 dark">MOVE. IMPROVE. REPEAT.</b>
-          </div>
-
-          <div className="dorian">
-            <b>Dorian</b>
-          </div>
-
-          <div className="miguel">
-            <b>Miguel</b>
-          </div>
-
-          <div className="andile">
-            <b>Andile</b>
-          </div>
-
-          <div className="jarrod">
-            <b>Jarrod</b>
-          </div>
-
-          <div className = "chad">
-            <b>Chad</b>
-          </div>
-
-          <div className = "stephen">
-            <b>Stephen</b>
-          </div>
-
-          <div className="mark1">
-            <b>Mark</b>
+            <b className = "fontUp1">MOVE. IMPROVE. REPEAT.</b>
           </div>
 
         </div>
@@ -49,36 +21,41 @@ export default function Intro() {
       <div>
           <img className="center-fit" src = {background}/>
           <div className = "text-center imgs">
-            <b></b>
             <br></br>
             <b></b>
           </div>
       </div>
-      <p>
+      <p className="experience container">
         We are the more than just a place to break sweat – we’re an incubator for achieving the best version of yourself. 
-
+        <br></br>
+        <br></br>
         This is the basis of the FitFreak philosophy.
-        
+        <br></br>
+        <br></br>
         Whether you’re a novice or a competing athlete, a well-rounded training program is essential to your overall wellbeing. 
 
         Movement and technique form the basis of our fitness regimens, with rehabilitation and injury prevention our specialised fundamental focus areas. 
 
         Through benchmarked movement assessments, we coach you to strengthen your body movement patterns, prevent injury, and educate you to become more self-aware. 
 
-        The success of this unconventional training approach is proven by the results our clientele boast. Not only are they surpassing their personal fitness goals— be it weight loss, or increased performance — they are doing it in a safe environment under the FitFreak team’s eagle eyes. 
-
-        ------------
-        Accountability. Community. Prehab. Strength Training. Positive Energy. 
-
+        The success of this unconventional training approach is proven by the results our clientele boast. Not only are they surpassing their personal fitness goals— be it weight loss, or increased performance — they are doing it in a safe environment under the FitFreak team’s eagle eyes.
+        <br></br>
+        <br></br>
+        <b className='red'>Accountability. Community. Prehab. Strength Training. Positive Energy.</b>
+        <br></br>
         These are the by 5 pillars by which we are driven — and the same pillars we use to guide you on your fitness and wellness journey. 
-
-
-        Personal Training:
-        A great way to start your journey. With a designated PT by your side, you’re guaranteed an even closer alignment with your personal goals.
-        We offer sessions focused on, but not limited to: 
+        <br></br>
+        <br></br>
+      </p>
+      <p className = "container experience1">
+        Personal Training: A great way to start your journey. With a designated PT by your side, you’re guaranteed an even closer alignment with your personal goals.
+        We offer sessions focused on, but not limited to:
+        <br></br>
         •	Rehab: making sure you come back stronger post injury, or
+        <br></br>
         •	Prehab: ensuring that your body is at optimal performance to support you.
-
+        <br></br>
+        <br></br>
         Group Training:
         We work as a team to create regimens that are safe, dynamic, and ultimately remain challenging. 
 
@@ -92,6 +69,8 @@ export default function Intro() {
         *Join the FitFreak tribe* 
 
         Our trainers are friendly and lead by example. They are paramount in building the FitFreak community. Through their expert support, you’ll exceed your own expectations and achieve success beyond what you ever thought possible. 
+        <br></br>
+        <br></br>
       </p>
     </div>
   )
