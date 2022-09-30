@@ -8,7 +8,7 @@ export default function Intro() {
   return (
     <div>
       <div className = "imgs">
-        <img className="center-fit" src = {team}/>
+        <img className="center-fit" src = {team}/> //put this into container with text so minimizing browser doesn't mess with text
         <div className="centered">FITFREAK</div>
         <div className="centered">MOVE. IMPROVE. REPEAT.</div>
         <img className="center-fit" src = {background}/>

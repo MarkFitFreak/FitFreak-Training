@@ -7,5 +7,6 @@ import TrainerPage from './components/TrainerPage';
 
 export default function App() {
   return (
-    <><div><Navbar></Navbar><Intro></Intro><Octive></Octive></div><div><Navbar></Navbar><Octive></Octive> <TrainerPage></TrainerPage></div></>
-  )}
+    <div><Navbar></Navbar><Intro></Intro><Octive></Octive></div> 
+  )
+}
