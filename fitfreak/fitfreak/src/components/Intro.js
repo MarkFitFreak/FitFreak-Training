@@ -8,16 +8,16 @@ export default function Intro() {
   return (
     <div>
       <div className = "imgs">
-        <img className="center-fit" src = {team}/> //put this into container with text so minimizing browser doesn't mess with text
+        <img className="center-fit" src = {team} alt=""/>
         <div className="centered">FITFREAK</div>
         <div className="centered">MOVE. IMPROVE. REPEAT.</div>
-        <img className="center-fit" src = {background}/>
+        <img className="center-fit" src = {background} alt=""/>
         <div className="centered2">Address: 1 Corwen St, Claremont, Cape Town, 7708, South Africa</div>
         <div className="centered-bottom2">Hours: 6:00 AM - 7:00 PM</div>
       <div className = "container center-fit">
     <div className = "dark">
       <div className = "center-fit imgs">
-        <img className="center-fit" src = {team}/>
+        <img className="center-fit" src = {team} alt=""/>
         <div className = "centered">
           <div className = "text-center">
             <b className = "fontUp">FITFREAK</b>
@@ -28,7 +28,7 @@ export default function Intro() {
         </div>
       </div>
       <div>
-          <img className="center-fit" src = {background}/>
+          <img className="center-fit" src = {background} alt=""/>
           <div className = "text-center imgs">
             <br></br>
             <b></b>
