@@ -10,8 +10,6 @@
 
 .center-fit {
     max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
     max-height: 100%;
 }
 
@@ -20,46 +18,17 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    font-size: 400%;
 }
 
-.centered-bottom {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 400%;
-}
-
-.centered2 {
-    position: absolute;
-    top: 185%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: red;
-    font-size: 400%;
-    text-align: center;
-}
-
-.centered-bottom2 {
-    position: absolute;
-    top: 250%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 400%;
-    color: white;
-}
 .fontUp{
     color: darkred;
-    font-size: 60px;
+    font-size: 300%;
     position: relative; top:-200px;
 }
 
 .fontUp1{
     color: darkred;
-    font-size: 60px;
+    font-size: 300%;
     position:relative;top:200px;
 }
 
@@ -78,6 +47,14 @@
     color: white;
     margin-bottom: 0px;
     margin-top: -15px;
+}
+
+.fontInc{
+    font-size: 200%;
+}
+
+.font2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
